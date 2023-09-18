@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  background-color: aquamarine;
+  margin-top: 5px;
+  color: black;
+  height: 50px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.nav-menu {
+  line-height: 50px;
+  background-color: #777;
+  margin: 0;
+}
+.nav-menu .icon {
+  color: coral;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+.nav-item {
+  display: flex;
+  align-items: center;
+  margin: 0 60px;
+}
+
+.nav-item i {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 16px;
+  color:black;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: blueviolet;
+}
+.icon {
+  color: red;
+}
